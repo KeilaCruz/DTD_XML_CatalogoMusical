@@ -1,0 +1,17 @@
+<!ELEMENT catalagomusical (album+)>
+<!ELEMENT album (titulo, artista, genero, lanzamiento, cancion+)>
+<!ELEMENT titulo(#PCDATA)>
+<!ELEMENT artista(#PCDATA)>
+<!ELEMENT genero(#PCDATA)>
+<!ELEMENT lanzamiento(#PCDATA)>
+<!ELEMENT cancion(titulo, artista, duracion)>
+<!ELEMENT duracion(#PCDATA)>
+
+<!ATTLIST album id CDATA #REQUIRED>
+<!ATTLIST titulo nombre CDATA #REQUIRED>
+<!ATTLIST artista pseudonimo CDATA #REQUIRED>
+<!ATTLIST genero tipo(Rock|Pop|Jazz|HipHop|Blues|Otro) #REQUIRED>
+<!ATTLIST lanzamiento fecha DATE #REQUIRED> 
+<!ATTLIST cancion id CDATA #REQUIRED> 
+<!ATTLIST duracion time CDATA #REQUIRED>
+

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE catalogomusical SYSTEM "catalagoMusical.dtd">
+<catalagomusical>
+<album id="1">
+<titulo nombre="navidades">Navidades</titulo>
+<artista pseudonimo="luismi">Luis Miguel</artista>
+<genero tipo="Otro">Villancico</genero>
+<lanzamiento fecha="2006-11-14">14 de Noviembre del 2006</lanzamiento>
+<cancion id="1navidades">
+    <titulo>Santa Claus llegó a la ciudad</titulo>
+    <artista>Luis Miguel</artista>
+    <duracion time="01:56">Un minuto cincuenta y seis segundos (1:56 minutos)</duracion>
+</cancion>
+<cancion id="2navidades">
+    <titulo>Blanca navidad</titulo>
+    <artista>Luis Miguel</artista>
+    <duracion time="03:30">Tres minutos y treinta segundos (3:30 minutos)</duracion>
+</cancion>
+<duracion time="31:30">Treinta y un minutos con treinta segundos(31:30 minutos)</duracion>
+</album>
+</catalagomusical>
+
